@@ -3,6 +3,7 @@ body{
     padding: 0;
     font-family: 'Cormorant Garamond', serif;
     line-height: 1.5;
+    background-color: #FBFEF9;
 }
 h1 {
     font-family: 'Merriweather', serif;
@@ -21,9 +22,16 @@ p {
     font-size: 16px;
     font-style: normal;
 }
+button {
+    background-color: #fce3e1;
+    border: 1px solid #70B0B1;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: bold;
+}
 /* NAVIGATION */
 .inline-block{
     padding: 15px;
+    background-color: #B9CFBA;
 }
 .inline-block ul{
     float: right;
@@ -33,6 +41,7 @@ p {
     padding: 0px 20px;
 }
 .inline-block a {
+    font-style: bold;
     text-decoration: none;
     color: black;
 }
@@ -47,7 +56,7 @@ p {
 }
 /* HERO */
 .heroImg{
-    background-color: bisque;
+    background-color: #B9CFBA;
     padding: 100px 15px;
 }
 .heroImg .left {
@@ -64,7 +73,7 @@ p {
     width: 35vw;
 }
 .vl {
-    border-left: 4px solid green;
+    border-left: 4px solid #384D0C;
     height: 50vh;
     position: absolute;
     left: 50%;
@@ -79,12 +88,27 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 10px;
+    gap: 5px;
     padding: 15px;
+    margin: 0 15px;
 }
 .grid-item{
-    border: 2px solid red;
+    background-color: #B9CFBA;
+    border: 2px solid #283F3B;
     padding: 15px;
+}
+/* PROCESS */
+.my-process{
+    padding: 0 30px;
+}
+/* TOOLS & LANGUAGES */
+.my-tools{
+    margin: 10px 30px;
+    background-color: #FCA17D;
+    
+}
+.my-tools .left, .my-tools .right{
+    text-align: left;
 }
 /* FOOTER */
 .contact{
@@ -100,5 +124,6 @@ footer ul{
 footer .inline-block{
     display: inline-block;
     padding: 0px 7px;
+    background-color: none;
 }
 
