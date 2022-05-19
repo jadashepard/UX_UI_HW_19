@@ -1,3 +1,13 @@
+@media only screen and (max-width: 600px){
+    .work-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 5px;
+        padding: 15px;
+        margin: 0 15px;
+    }
+}
 body{
     margin: 0;
     padding: 0;
@@ -69,8 +79,11 @@ button {
 .my-skills h1{
     text-decoration: underline;
 }
-.my-skills .right {
-    width: 35vw;
+.my-skills .right, .my-skills .left {
+    width: 25vw;
+}
+.my-skills .right{
+    text-align: left;
 }
 .vl {
     border-left: 4px solid #384D0C;
@@ -109,6 +122,21 @@ button {
 }
 .my-tools .left, .my-tools .right{
     text-align: left;
+}
+/* ABOUT */
+.about .left, .about .right{
+    padding: 20px;
+    width: 35vw;
+    text-align: left;
+}
+/* HOBBIES */
+.my-hobbies h1{
+    padding: 15px;
+    margin: 20px 15px;
+    line-height: 0;
+}
+.my-hobbies .grid-item{
+    text-align: center;
 }
 /* FOOTER */
 .contact{
